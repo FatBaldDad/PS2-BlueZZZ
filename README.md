@@ -5,7 +5,7 @@
     <img
       src="Images/Logos/PS2-BlueZZZ-Logo-Light.png"
       alt="PS2 BlueZZZ Logo"
-      width="70%"
+      width="40%"
     >
   </picture>
 </p>
