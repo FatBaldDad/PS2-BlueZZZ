@@ -56,6 +56,45 @@ This project is currently in development and testing.
 
 The first revision focuses on proving the interface board, audio attenuation, pushbutton power control, and PS2 Slim fitment.
 
+---
+
+## Concept and Install Examples
+
+These images show the early PS2-BlueZZZ concept layout and prototype install examples.  
+Click any thumbnail to view the full-size image.
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="Images/Install-Photos/PS2-BlueZZZ-ControlBoard-Concept-01.png">
+        <img src="Images/Install-Photos/PS2-BlueZZZ-ControlBoard-Concept-01.png" width="220">
+      </a>
+      <br>
+      <strong>Control Board Concept</strong>
+      <br>
+      Early concept image showing the planned control board placement and fitment idea.
+    </td>
+    <td align="center" width="33%">
+      <a href="Images/Install-Photos/PS2-BlueZZZ-ControlBoard-Prototype01.png">
+        <img src="Images/Install-Photos/PS2-BlueZZZ-ControlBoard-Prototype01.png" width="220">
+      </a>
+      <br>
+      <strong>Control Board Prototype Example</strong>
+      <br>
+      Prototype control board example used to test button placement, wiring, and PS2 Slim fitment.
+    </td>
+    <td align="center" width="33%">
+      <a href="Images/Install-Photos/PS2-BlueZZZ-InterfaceBoard-Prototype01.png">
+        <img src="Images/Install-Photos/PS2-BlueZZZ-InterfaceBoard-Prototype01.png" width="220">
+      </a>
+      <br>
+      <strong>Interface Board Prototype Example</strong>
+      <br>
+      Prototype interface board example showing the Bluetooth audio emitter integration concept.
+    </td>
+  </tr>
+</table>
+
 ## Board Renders
 
 These renders show the current PS2-BlueZZZ control board and interface board layouts.  
