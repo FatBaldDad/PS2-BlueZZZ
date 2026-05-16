@@ -56,6 +56,66 @@ This project is currently in development and testing.
 
 The first revision focuses on proving the interface board, audio attenuation, pushbutton power control, and PS2 Slim fitment.
 
+## Board Renders
+
+These renders show the current PS2-BlueZZZ control board and interface board layouts.  
+Click any thumbnail to view the full-size image.
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="Images/Board-Renders/PS2-BlueZZZ-Control-Board-Render01.png">
+        <img src="Images/Board-Renders/PS2-BlueZZZ-Control-Board-Render01.png" width="220">
+      </a>
+      <br>
+      <strong>Control Board Render 01</strong>
+      <br>
+      Main control board render.
+    </td>
+    <td align="center" width="33%">
+      <a href="Images/Board-Renders/PS2-BlueZZZ-Control-Board-Render02.png">
+        <img src="Images/Board-Renders/PS2-BlueZZZ-Control-Board-Render02.png" width="220">
+      </a>
+      <br>
+      <strong>Control Board Render 02</strong>
+      <br>
+      Alternate view of the control board.
+    </td>
+    <td align="center" width="33%">
+      <a href="Images/Board-Renders/PS2-BlueZZZ-Control-Board-Render03.png">
+        <img src="Images/Board-Renders/PS2-BlueZZZ-Control-Board-Render03.png" width="220">
+      </a>
+      <br>
+      <strong>Control Board Render 03</strong>
+      <br>
+      Additional control board render view.
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <a href="Images/Board-Renders/PS2-BlueZZZ-Interfacel-Board-Render01.png">
+        <img src="Images/Board-Renders/PS2-BlueZZZ-Interfacel-Board-Render01.png" width="220">
+      </a>
+      <br>
+      <strong>Interface Board Render 01</strong>
+      <br>
+      Interface board render showing the board layout.
+    </td>
+    <td align="center" width="33%">
+      <a href="Images/Board-Renders/PS2-BlueZZZ-Interfacel-Board-Render02.png">
+        <img src="Images/Board-Renders/PS2-BlueZZZ-Interfacel-Board-Render02.png" width="220">
+      </a>
+      <br>
+      <strong>Interface Board Render 02</strong>
+      <br>
+      Alternate interface board render view.
+    </td>
+    <td align="center" width="33%">
+      <!-- Empty cell used to keep layout balanced -->
+    </td>
+  </tr>
+</table>
+
 ## Disclaimer
 
 This is a hobby hardware project for modifying PlayStation 2 consoles.
