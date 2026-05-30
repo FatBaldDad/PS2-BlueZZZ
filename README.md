@@ -1,174 +1,63 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="Images/Logos/PS2-BlueZZZ-Logo-Dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="Images/Logos/PS2-BlueZZZ-Logo-Light.png">
-    <img
-      src="Images/Logos/PS2-BlueZZZ-Logo-Light.png"
-      alt="PS2 BlueZZZ Logo"
-      width="35%"
-    >
-  </picture>
-</p>
+# PS2-BlueZZZ
 
-# PS2 BlueZZZ
+PS2-BlueZZZ is an FBD / Fat Bald Dad project focused on cleaner internal Bluetooth audio installs for PlayStation 2 Slim consoles.
 
-**Bluetooth audio for quiet late-night PlayStation 2 gaming.**
+> [!IMPORTANT]
+> PS2-BlueZZZ is currently in private development.
+>
+> This public repository exists to document the project name, ownership, development status, and public-facing goals of the FBD PS2-BlueZZZ project.
+>
+> This is not an open-source hardware or manufacturing release at this time.
+>
+> Production hardware files, PCB files, Gerber files, KiCad design files, manufacturing files, detailed installation methods, test data, and internal development notes are intentionally not included.
+>
+> No permission is granted to manufacture, clone, sell, rehost, redistribute, or create derivative hardware based on this project without written permission from Fat Bald Dad / FBD Retro Game.
 
-PS2 BlueZZZ is an open hardware project for adding internal Bluetooth audio to a PlayStation 2 Slim console.
+## Project Purpose
 
-The project is built around a Bluetooth audio emitter module, a custom interface board, a controller board, and internal mounting hardware. The goal is to make Bluetooth audio installs cleaner, easier to solder, easier to mount, and easier to reproduce.
+PS2-BlueZZZ is a PlayStation 2 internal Bluetooth audio project. Its goal is to support cleaner, more self-contained Bluetooth audio installs for compatible PS2 Slim systems while the project continues through private development.
 
-## Why This Project Exists
+## What PS2-BlueZZZ Is Trying to Do
 
-The idea behind PS2 BlueZZZ is simple:
+The project is intended to improve the overall fit, presentation, and usability of internal Bluetooth audio integration for PS2 Slim consoles. This public repository shares only high-level project information and does not publish implementation details.
 
-Play PS2 games late at night with Bluetooth headphones without disturbing anyone nearby.
+## Current Development Status
 
-Directly wiring a Bluetooth audio emitter into a PS2 Slim can work, but it is not always clean, repeatable, or easy to service. The PS2 BlueZZZ interface board is designed to make the install cleaner and more practical.
+PS2-BlueZZZ is currently in private development. Development materials, prototype iterations, validation work, and internal project notes are being maintained outside this public repository.
 
-## Main Features
+## Public Repository Purpose
 
-- Internal Bluetooth audio support for PS2 Slim consoles
-- Interface board designed to sit flush with the Bluetooth audio emitter
-- Edge solder pads for cleaner soldering
-- Audio attenuation to help prevent distorted audio
-- MAX16054 pushbutton on/off controller
-- Push-on / push-off Bluetooth audio power control
-- Separate controller board for user-facing buttons and indicators
-- Internal mounting bracket support
-- Revision tracking for board changes and improvements
-- Central location for schematics, PCB files, BOMs, install notes, and test data
+This repository exists for project identification, ownership record, brand awareness, and high-level public documentation. It serves as the public-facing claim and announcement location for the PS2-BlueZZZ project.
 
-## Project Sections
+## What Is Not Public Yet
 
-| Section | Purpose |
-|---|---|
-| `Hardware/` | KiCad files, PCB files, board renders, BOMs, and hardware notes |
-| `Documents/` | Design notes, explanations, installation planning, and testing notes |
-| `Manufacturing/` | Assembly notes, fabrication notes, and QA checklist |
-| `Images/` | Logos, board renders, install photos, and repo images |
-| `References/` | Datasheets, links, source notes, and related documentation |
-| `Test-Data/` | Audio tests, power tests, fitment tests, and validation notes |
+This repository is not currently an open-source hardware or manufacturing release. Production hardware files, PCB files, Gerbers, KiCad files, manufacturing files, detailed installation methods, test data, and internal development notes are intentionally not included.
 
-## Current Status
+## Public Folder Status
 
-This project is currently in development and testing.
+The public folders in this repository are placeholders for future high-level documentation. Technical development content has been removed from the public working tree and may remain private unless a later release changes that status.
 
-The first revision focuses on proving the interface board, audio attenuation, pushbutton power control, and PS2 Slim fitment.
+## Community Feedback
 
----
+General public feedback is welcome through issues or other public discussion channels when available. Helpful feedback includes compatibility observations, documentation corrections, research references, and high-level feature suggestions.
 
-## Concept and Install Examples
+## Not Currently Accepted
 
-These images show the early PS2-BlueZZZ concept layout and prototype install examples.  
-Click any thumbnail to view the full-size image.
+This repository is not accepting hardware design submissions, PCB layout pull requests, manufacturing files, installation-method writeups, clone hardware proposals, or derivative product work based on private FBD development.
 
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <a href="Images/Install-Photos/PS2-BlueZZZ-ControlBoard-Concept-01.png">
-        <img src="Images/Install-Photos/PS2-BlueZZZ-ControlBoard-Concept-01.png" width="220">
-      </a>
-      <br>
-      <strong>Control Board Concept</strong>
-      <br>
-      Early concept image showing the planned control board placement and fitment idea.
-    </td>
-    <td align="center" width="33%">
-      <a href="Images/Install-Photos/PS2-BlueZZZ-ControlBoard-Prototype01.png">
-        <img src="Images/Install-Photos/PS2-BlueZZZ-ControlBoard-Prototype01.png" width="220">
-      </a>
-      <br>
-      <strong>Control Board Prototype Example</strong>
-      <br>
-      Prototype control board example used to test button placement, wiring, and PS2 Slim fitment.
-    </td>
-    <td align="center" width="33%">
-      <a href="Images/Install-Photos/PS2-BlueZZZ-InterfaceBoard-Prototype01.png">
-        <img src="Images/Install-Photos/PS2-BlueZZZ-InterfaceBoard-Prototype01.png" width="220">
-      </a>
-      <br>
-      <strong>Interface Board Prototype Example</strong>
-      <br>
-      Prototype interface board example showing the Bluetooth audio emitter integration concept.
-    </td>
-  </tr>
-</table>
+## Relationship to Other FBD Projects
 
-## Board Renders
+PS2-BlueZZZ is part of the broader FBD / Fat Bald Dad project portfolio. It is being developed alongside other FBD projects, but its private development materials are maintained separately from this public repository.
 
-These renders show the current PS2-BlueZZZ control board and interface board layouts.  
-Click any thumbnail to view the full-size image.
+## License / Usage
 
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <a href="Images/Board-Renders/PS2-BlueZZZ-Control-Board-Render01.png">
-        <img src="Images/Board-Renders/PS2-BlueZZZ-Control-Board-Render01.png" width="220">
-      </a>
-      <br>
-      <strong>Control Board Render 01</strong>
-      <br>
-      Main control board render.
-    </td>
-    <td align="center" width="33%">
-      <a href="Images/Board-Renders/PS2-BlueZZZ-Control-Board-Render02.png">
-        <img src="Images/Board-Renders/PS2-BlueZZZ-Control-Board-Render02.png" width="220">
-      </a>
-      <br>
-      <strong>Control Board Render 02</strong>
-      <br>
-      Alternate view of the control board.
-    </td>
-    <td align="center" width="33%">
-      <a href="Images/Board-Renders/PS2-BlueZZZ-Control-Board-Render03.png">
-        <img src="Images/Board-Renders/PS2-BlueZZZ-Control-Board-Render03.png" width="220">
-      </a>
-      <br>
-      <strong>Control Board Render 03</strong>
-      <br>
-      Additional control board render view.
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="33%">
-      <a href="Images/Board-Renders/PS2-BlueZZZ-Interfacel-Board-Render01.png">
-        <img src="Images/Board-Renders/PS2-BlueZZZ-Interfacel-Board-Render01.png" width="220">
-      </a>
-      <br>
-      <strong>Interface Board Render 01</strong>
-      <br>
-      Interface board render showing the board layout.
-    </td>
-    <td align="center" width="33%">
-      <a href="Images/Board-Renders/PS2-BlueZZZ-Interfacel-Board-Render02.png">
-        <img src="Images/Board-Renders/PS2-BlueZZZ-Interfacel-Board-Render02.png" width="220">
-      </a>
-      <br>
-      <strong>Interface Board Render 02</strong>
-      <br>
-      Alternate interface board render view.
-    </td>
-    <td align="center" width="33%">
-      <!-- Empty cell used to keep layout balanced -->
-    </td>
-  </tr>
-</table>
+No permission is granted to manufacture, clone, sell, rehost, redistribute, or create derivative hardware/products from this project without written permission from Fat Bald Dad / FBD Retro Game. See `LICENSE` and `NOTICE.md` for the current public notice and usage limitations.
 
-## Disclaimer
+## Project Owner
 
-This is a hobby hardware project for modifying PlayStation 2 consoles.
+Project owner: Burch Goldner / Fat Bald Dad  
+Brand: FBD Retro Game / Fat Bald Dad
 
-Installing this board requires soldering, disassembly, and modification of original console hardware. Use at your own risk. Always verify wiring, polarity, audio routing, and power connections before powering the console.
+## Future Direction
 
-## License
-
-License information will be added in the `LICENSE` file.
-
-## AI Assistance and Attribution Disclaimer
-
-This project uses AI tools to help with writing, organization, documentation, research, code examples, and design planning. While I review and edit the information, some details may still be incorrect, incomplete, or outdated.
-
-Not all ideas, code, research, methods, or technical information in this project should be credited only to me. This project may reference, build on, or be inspired by community knowledge, open-source projects, datasheets, forum posts, Discord discussions, manufacturer documentation, and the work of other developers and modders.
-
-Credit will be given whenever a source is known. If something is missing credit or needs correction, please let me know so I can update the documentation.
+Public documentation may expand over time as the project matures. Any future public release scope, if it happens, will be announced explicitly rather than implied by the presence of this repository.
