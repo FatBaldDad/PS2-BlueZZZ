@@ -9,6 +9,7 @@
     >
   </picture>
 </p>
+
 # PS2-BlueZZZ
 
 **PS2-BlueZZZ** is an **FBD / Fat Bald Dad** project focused on internal Bluetooth audio integration for PlayStation 2 consoles.
